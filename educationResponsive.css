@@ -1,6 +1,6 @@
 /******** Responsive Design**********/
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width:320px) and (max-width:768px) {
     :root {
         --primary-color: rgb(21, 21, 180);
         --header-color: rgb(177, 177, 182);
@@ -11,6 +11,9 @@
         --hover-color: rgb(35, 35, 181);
         --favorite-blue: rgb(50, 50, 255);
         --font-family: "Roboto", "Open+Sans", "Lato", "Ubuntu";
+    }
+    body{
+        width: 100%;
     }
     #header{
         position: fixed;
@@ -72,7 +75,7 @@
 
     /*courses  page */
     #courses{
-        height: 110vh;
+        height: 100vh;
     }
     .courses_welcome{
         padding: 8px;
